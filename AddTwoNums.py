@@ -2,9 +2,14 @@
 # Author: Zhou Yuwei
 # Using the + Operator
 # Using users input
+# using a function
 a=input("Enter your first number:")
 b=input("Enter your second number:")
 #take input
-res= float(a)+float(b)
-#operate with float type
+def add(a,b):
+  result=float(a) + float(b)
+  return result
+#define a function
+res = add(a,b)
+print("The Answer is:")
 print(res)
